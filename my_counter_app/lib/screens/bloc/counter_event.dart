@@ -12,4 +12,5 @@ class DecrementCounter extends CounterEvent {
   int currentValue;
 }
 
+///Evento utilizado para reiniciar el contador.
 class ResetCounter extends CounterEvent {}
